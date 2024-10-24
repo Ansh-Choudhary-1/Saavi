@@ -39,7 +39,7 @@ class Page3 extends StatelessWidget {
       body: DecoratedBox(
         decoration: const BoxDecoration(
           image: DecorationImage(
-              image: AssetImage("assets/images/bg3.png"), fit: BoxFit.cover),
+              image: AssetImage("assets/images/bg1.png"), fit: BoxFit.cover),
         ),
         child: SwipeDetector(
           onSwipeLeft: (offset) {
@@ -53,7 +53,7 @@ class Page3 extends StatelessWidget {
           child: SizedBox.expand(
             child:
                 Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-              Image.asset("assets/images/firstLaunch1.png"),
+              Image.asset("assets/images/firstLaunch3.png"),
               const SizedBox(
                 height: 50,
               ),
