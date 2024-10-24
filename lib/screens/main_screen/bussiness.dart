@@ -104,7 +104,6 @@ class Bussiness extends StatelessWidget {
                           decoration: InputDecoration(
                               labelText: 'Report',
                               labelStyle: const TextStyle(color: Colors.grey),
-                              contentPadding: const EdgeInsets.all(20.0),
                               border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(30),
                                   borderSide: const BorderSide(
