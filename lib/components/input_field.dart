@@ -4,11 +4,13 @@ import 'package:saavi/pallete/colors_pallete.dart';
 class InputField extends StatefulWidget {
   final String labelText;
   final bool isPassword;
+  final TextInputType? type;
   final String? value;
   final TextEditingController? controller;
   const InputField(
       {required this.isPassword,
       required this.labelText,
+      this.type = TextInputType.text,
       this.value,
       this.controller,
       super.key});
@@ -24,6 +26,7 @@ class _InputFieldState extends State<InputField> {
     return TextFormField(
         readOnly: widget.value == null ? false : true,
         initialValue: widget.value,
+        keyboardType: widget.type,
         controller: widget.controller,
         decoration: InputDecoration(
             suffixIcon: widget.isPassword

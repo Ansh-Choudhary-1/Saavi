@@ -63,6 +63,7 @@ class _SignInState extends State<SignIn> {
             const InputField(
               isPassword: false,
               labelText: "Email",
+              type: TextInputType.emailAddress,
             ),
             const SizedBox(
               height: 20,

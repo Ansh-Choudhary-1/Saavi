@@ -114,6 +114,7 @@ class _SignUpState extends State<SignUp> {
               const InputField(
                 isPassword: false,
                 labelText: "Name",
+                type: TextInputType.name,
               ),
               const SizedBox(
                 height: 20,
@@ -128,6 +129,7 @@ class _SignUpState extends State<SignUp> {
               const InputField(
                 isPassword: false,
                 labelText: "Aadhar",
+                type: TextInputType.number,
               ),
               const SizedBox(
                 height: 20,
@@ -135,6 +137,7 @@ class _SignUpState extends State<SignUp> {
               const InputField(
                 isPassword: false,
                 labelText: "Emergeny Contact 1",
+                type: TextInputType.phone,
               ),
               const SizedBox(
                 height: 20,
@@ -142,6 +145,7 @@ class _SignUpState extends State<SignUp> {
               const InputField(
                 isPassword: false,
                 labelText: "Emergeny Contact 2",
+                type: TextInputType.phone,
               ),
               const SizedBox(
                 height: 50,

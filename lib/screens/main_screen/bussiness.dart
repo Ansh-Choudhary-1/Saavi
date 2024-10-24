@@ -101,6 +101,7 @@ class Bussiness extends StatelessWidget {
                         child: TextFormField(
                           maxLines: null,
                           expands: true,
+                          keyboardType: TextInputType.multiline,
                           decoration: InputDecoration(
                               labelText: 'Report',
                               labelStyle: const TextStyle(color: Colors.grey),
