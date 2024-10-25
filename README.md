@@ -1,16 +1,6 @@
-# saanvi
+# Saavi: Women’s Safety App
 
-A new Flutter project.
+**Saavi** is a Flutter-based mobile application designed to enhance safety and provide quick emergency support for women. Leveraging AI-driven location tracking and voice-based interaction, Savi offers discreet assistance to users in distress.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Check out the project design and prototypes on Figma:
+https://www.figma.com/design/ypjfSUehh9csYKQYoYnc8O/internal-hackathon?node-id=164-115&t=jhMLtrMFVgIU5LCb-1
